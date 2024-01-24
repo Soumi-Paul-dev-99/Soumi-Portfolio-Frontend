@@ -32,7 +32,7 @@ function App() {
         <Tada>
           <div className="footer pb-3 ms-3">
             <h4 className="text-center">
-              Made with - ❤👸 Soumi Paul &copy; 2024 ❤👸
+              Made with - $oumi Paul &copy; 2024 
             </h4>
           </div>
         </Tada>
