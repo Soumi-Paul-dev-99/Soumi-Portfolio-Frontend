@@ -23,7 +23,7 @@ const Contact = () => {
         toast.error("Please provide all fields");
       }
       const res = await axios.post(
-        "http://localhost:8080/api/v1/portfolio/sendEmail",
+        "https://soumi-portfolio-backend.onrender.com/api/v1/portfolio/sendEmail",
         {
           name,
           email,
