@@ -70,7 +70,7 @@ const Contact = () => {
                   <div className="row">
                     <div className="row">
                       <h6>
-                        Contact with...
+                        Contact with
                         <a
                           className="ms-2"
                           href="https://www.linkedin.com/in/soumi-paul-b4950520b/"
