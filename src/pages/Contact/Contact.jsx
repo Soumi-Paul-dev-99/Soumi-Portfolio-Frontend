@@ -71,23 +71,66 @@ const Contact = () => {
                     <div className="row">
                       <h6>
                         Contact with
-                        <BsLinkedin
-                          color="#0077B5"
+                        <a
                           className="ms-2"
-                          size={30}
-                        />
-                        <BsGithub color="#24292e" className="ms-2" size={30} />
-                        <FaFacebookSquare
-                          color="#316FF6"
+                          href="https://www.linkedin.com/in/soumi-paul-b4950520b/"
+                          rel="noreferrer"
+                          target="_blank"
+                        >
+                          <BsLinkedin
+                            color="#0077B5"
+                            className="ms-2"
+                            size={30}
+                          />
+                        </a>
+                        <a
                           className="ms-2"
-                          size={30}
-                        />
-                        <FaSquareWhatsapp
-                          color="#25d366"
+                          href="https://github.com/Soumi-Paul-dev-99"
+                          rel="noreferrer"
+                          target="_blank"
+                        >
+                          <BsGithub
+                            color="#24292e"
+                            className="ms-2"
+                            size={30}
+                          />
+                        </a>
+                        <a
                           className="ms-2"
-                          size={30}
-                        />
-                        <SiIndeed color="#2164f4" className="ms-2" size={30} />
+                          href="https://www.facebook.com/soumi.paul.mamon18"
+                          rel="noreferrer"
+                          target="_blank"
+                        >
+                          <FaFacebookSquare
+                            color="#316FF6"
+                            className="ms-2"
+                            size={30}
+                          />
+                        </a>
+                        <a
+                          className="ms-2"
+                          href="http://api.whatsapp.com/send?phone=+919330719639"
+                          rel="noreferrer"
+                          target="_blank"
+                        >
+                          <FaSquareWhatsapp
+                            color="#25d366"
+                            className="ms-2"
+                            size={30}
+                          />
+                        </a>
+                        <a
+                          className="ms-2"
+                          href="https://profile.indeed.com/?hl=en_IN&co=IN&from=gnav-messaging--messaging-webapp"
+                          rel="noreferrer"
+                          target="_blank"
+                        >
+                          <SiIndeed
+                            color="#2164f4"
+                            className="ms-2"
+                            size={30}
+                          />
+                        </a>
                       </h6>
                     </div>
 
