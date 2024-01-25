@@ -15,7 +15,7 @@ const Workexp = () => {
             Work Experience
           </h2>
           <hr />
-          <VerticalTimeline >
+          <VerticalTimeline>
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
               contentStyle={{ background: "white", color: "" }}
@@ -27,12 +27,17 @@ const Workexp = () => {
               icon={<IoLogoNodejs />}
             >
               <h3 className="vertical-timeline-element-title">
-               Nodejs Developer
+                Nodejs Developer
               </h3>
-              <h5 className="vertical-timeline-element-subtitle">Hih7 Web Tech Pvt Ltd</h5>
               <p>
-           
+                <li> 3rd Party API data save to own database</li>
+                <li>Starting a project from scratch with database design</li>
+                <li>AWS EC2 Deploy using GIT</li>
               </p>
+              <h5 className="vertical-timeline-element-subtitle">
+                Hih7 Web Tech Pvt Ltd
+              </h5>
+              <p></p>
             </VerticalTimelineElement>
           </VerticalTimeline>
         </div>
