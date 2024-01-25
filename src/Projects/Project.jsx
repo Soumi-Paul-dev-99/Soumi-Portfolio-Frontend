@@ -12,29 +12,7 @@ const Project = () => {
         <p className="pb-3 text-center">
           👉 Here are my top 3 recent project with live Links and source code
         </p>
-        <p>
-          <h3>Guardian Banking Solutions</h3>
-          <li>
-            Developed and contributed to a comprehensive banking application
-            using Node.js, encompassing crucial features such as email sending,
-            authentication, and interactive banking forms.
-          </li>
-          <li>
-            Designed and integrated secure authentication mechanisms to
-            safeguard user data and privacy, resulting in a seamless and
-            trustworthy user experience.
-          </li>
-          <li>
-            Spearheaded the creation of dynamic banking forms, optimizing the
-            user interface and facilitating efficient data collection and
-            processing.
-          </li>
-          <li>
-            Contributed to continuous improvement by staying updated with
-            industry trends and best practices, subsequently integrating new
-            technologies and methodologies into the project.
-          </li>
-        </p>
+
         {/* card design */}
         <div className="row" id="ads">
           <Tada>
@@ -47,14 +25,16 @@ const Project = () => {
                 <div className="card-image-overly m-auto mt-3">
                   <span className="card-detail-badge">Node</span>
                   <span className="card-detail-badge">Express</span>
-                  <span className="card-detail-badge">React</span>
                   <span className="card-detail-badge">MongoDB</span>
                 </div>
                 <div className="card-body text-center">
                   <div className="ad-title m-auto">
-                    <h5 className="text-uppercase">Gurdian Banking Solution</h5>
+                    <h5 className="text-uppercase">Job Portal Backend</h5>
                   </div>
-                  <a href="" className="ad-btn">
+                  <a
+                    href="https://github.com/Soumi-Paul-dev-99/job-portal-backend.git"
+                    className="ad-btn"
+                  >
                     View
                   </a>
                 </div>
