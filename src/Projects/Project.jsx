@@ -20,7 +20,7 @@ const Project = () => {
               <div className="card rounded">
                 <div className="card-image">
                   <span className="card-notify-badge">Mern Stack</span>
-                  <img src="./gurdian.png" alt="projects" />
+                  <img src="./job-portal.jpg" alt="projects" />
                 </div>
                 <div className="card-image-overly m-auto mt-3">
                   <span className="card-detail-badge">Node</span>
